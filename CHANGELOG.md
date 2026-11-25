@@ -1,6 +1,12 @@
 # Changelog
 
-## v0.1 (unreleased)
+## v0.1.1
+
+- No change to the Skill itself.
+- `examples/`: a third end-to-end case, a matte red lipstick with the user's own product photo attached and a two-image series that reuses the first image as the model's identity reference (one planned lip close-up was blocked by the image platform's output moderation and is reported, not rerun).
+- README evidence: with an attached product photo, product appearance matched the photo in 3/3 test images (2/3 judged usable; one awkward grip); one later shot in a series was judged the same person as the first. Small samples; see README.
+
+## v0.1
 
 - First public version of the `ai-beauty-photography` Codex Skill: product and task understanding, 2–3 distinct directions for the user to pick (each one image with a real place, moment, person and framing with room for logo and headline), specific per-product casting of a fictional adult synthetic model, campaign planning, a fill-in prompt template whose copy space comes from the scene itself (sky, wall, shadow, soft background) at the side, top or bottom per ratio, host-native image generation and result checks.
 - The Skill itself is text-only: no sample images, no pose library or pose reference images.
