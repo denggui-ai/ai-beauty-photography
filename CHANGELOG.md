@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.2
+
+- No change to the Skill itself.
+- `examples/six-categories.md`: the 12 test requests behind the README evidence (lip, eye, base, skin, fragrance, tools; two each), one image per request, unselected and unretouched, shown as one contact sheet with each original request and the direction taken.
+
 ## v0.1.1
 
 - No change to the Skill itself.
