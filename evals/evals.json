@@ -1,0 +1,157 @@
+{
+  "skill_name": "ai-beauty-photography",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "为一支正红色口红生成一张模特正在涂唇的广告主视觉。",
+      "expected_output": "需求已定一张：先在需求范围内自想 3 个差别大的方向（地点、人、构图），选最不像常见美妆广告、仍美且让人想要的一个；按 references/prompt-templates.md 只填空写提示词：真实地点与时刻、具体且美的模特、构图并取场景本身的空间（天、墙、暗部、柔和背景）按画幅给 logo 和广告语留位置、不缩小妆效，主打妆效为红唇；不逐项写身体朝向、哪只手、手与脸的接触、镜头或光的方向；涂唇动作只用一个短语写进需求要求的位置。",
+      "expected_first_result": "TEMPLATE_PROMPT_REAL_PLACE_COPY_SPACE_NO_PINNED_POSE",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "帮我做一张腮红膏的模特广告图。（当前宿主只支持文字输出，没有原生出图动作）",
+      "expected_output": "照常完成概念、选角说明与完整 brief/提示词，并明确说明本环境未执行出图；不声称已生成图片，不调用 API、不索要 API key、不改用第三方或 CLI 生成。",
+      "expected_first_result": "TEXT_ONLY_HOST_BRIEF_NO_FAKE_IMAGE",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "这是我的粉底液产品图，帮我出一张带模特的广告图，顺便把瓶身上模糊的 logo 修清楚。（附一张用户自己的产品照片）",
+      "expected_output": "把产品图只作外观参考，按 Skill 完成模特广告；说明修 logo、修标签、去背景、重绘包装不在范围内，不执行这部分；不承诺 SKU/标签文字完全还原，不把用户照片复制进项目。",
+      "expected_first_result": "PRODUCT_PHOTO_APPEARANCE_ONLY_NO_SKU_EDIT",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "同一个眼影盘 campaign 需要一张 9:16 的快拍图和一张 16:9 的官网横幅，横幅左侧留出文案位。",
+      "expected_output": "按两个投放位分别构图并分别出图，不拉伸同一张图或加空白边；横幅主体放右侧，左侧文案区保持干净，头发、手、产品和道具不侵入；最终文案建议在设计工具中添加。",
+      "expected_first_result": "SEPARATE_COMPOSITION_PER_PLACEMENT",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "为一支深棕色细尖眼线笔策划一组美妆商业图。产品图能看到细尖笔头和深棕笔液；没有提供防水、持妆或易卸等卖点。",
+      "expected_output": "识别眼妆品类；围绕笔尖、眼尾线条、眼部效果和产品展示提出创意与镜头任务；不套用口红贴唇规则；不编造防水/持妆等功效。",
+      "expected_first_result": "CATEGORY_AWARE_EYE_MAKEUP_PLAN",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "为一款多色号粉底液规划商品页与品牌宣传图片。产品资料只提供瓶身、色号范围和自然光泽妆效，没有提供遮瑕度或持妆时长。",
+      "expected_output": "识别底妆品类；按商品页与宣传用途区分镜头任务，考虑产品静物、色号/肤色呈现、妆面人像或质地；不虚构遮瑕度和持妆主张；不把所有镜头都设计成模特手持瓶子。",
+      "expected_first_result": "CATEGORY_AWARE_BASE_MAKEUP_PLAN",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "为一瓶滴管精华策划商业摄影。可见事实只有琥珀色瓶身、滴管结构和透明精华液；没有成分、临床功效或抗老数据。",
+      "expected_output": "识别护肤品类；按商业任务选择瓶身、滴管/液体质地、使用场景或人物镜头；把成分和功效标为未知，不编造抗老或临床主张。",
+      "expected_first_result": "CATEGORY_AWARE_SKINCARE_PLAN",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "为一套美妆蛋和粉扑策划商业图片，重点让消费者看懂工具形状、材质和按压上妆的使用方式。",
+      "expected_output": "识别美妆工具品类；区分产品静物/材质细节与工具按压皮肤的使用演示；只有在使用镜头确有必要时才设计手部动作，不强行加入刷具或眼部动作。",
+      "expected_first_result": "CATEGORY_AWARE_BEAUTY_TOOLS_PLAN",
+      "files": []
+    },
+    {
+      "id": 9,
+      "prompt": "为一款高端香水做一组品牌视觉图片。现有资料只有玻璃瓶造型、瓶盖材质和香水名称，没有提供香调说明或成分。",
+      "expected_output": "识别香氛品类；可提出概念静物、瓶身材质、氛围和可选人物镜头；不臆造香调、成分或功效；不强迫加入喷雾动作或模特。",
+      "expected_first_result": "CATEGORY_AWARE_FRAGRANCE_PLAN",
+      "files": []
+    },
+    {
+      "id": 10,
+      "prompt": "为一支玫瑰色唇釉策划商业摄影。产品图可见刷头、管身和唇釉颜色；品牌只确认了缎光妆效，没有提供持色时长。",
+      "expected_output": "识别唇妆品类；围绕颜色、缎光质地、刷头/包装和唇部呈现设计互补镜头；不把持色时长当事实，不默认必须拍正在涂抹。",
+      "expected_first_result": "CATEGORY_AWARE_LIP_MAKEUP_PLAN",
+      "files": []
+    },
+    {
+      "id": 11,
+      "prompt": "为一款面向 Z 世代男性的哑光控油粉底液策划一组模特广告图。",
+      "expected_output": "开放需求：先给 2–3 个差别大的方向，每个方向是一张图并写真实地点与时刻、人、构图，让用户挑；按产品具体选一位虚构合成成年模特（年龄、发型、肤色、眼睛、一个辨识点），标准是目标顾客觉得非常美、想成为的人；每个系列换新人，不默认使用 S01 样例，不要求任何人审批；同一系列以首张通过的人物图作为后续身份参考；不索要真人模特照片，不模仿真人或名人。",
+      "expected_first_result": "SPECIFIC_BEAUTIFUL_CASTING_DIRECTIONS_NOT_S01_DEFAULT",
+      "files": []
+    },
+    {
+      "id": 12,
+      "prompt": "这是我的腮红膏，请你生成带模特的广告商业摄影作品。（附一张无品牌圆形银色铝盒腮红膏产品图）",
+      "expected_output": "开放需求：先给 2–3 个差别大的方向（每个一张图，写真实地点与时刻、人、构图）让用户挑；用户选定后从腮红的妆效（颜色、光泽）出发，按模板只填空写提示词：真实地点与时刻及其自然光、具体且美的模特、构图并取场景本身的空间按画幅给 logo 和广告语留位置、主打妆效清楚、产品拿在手里或放在前景、无品牌包装；不加避免清单、不写姿势、手、光方向、镜头；不加任何标志或可读文字。",
+      "expected_first_result": "DIRECTIONS_THEN_TEMPLATE_MODEL_KEY_VISUAL",
+      "files": []
+    },
+    {
+      "id": 13,
+      "prompt": "为一瓶无品牌玻璃香水策划一张纯静物广告主视觉，不要模特。",
+      "expected_output": "按纯产品模式执行，不强行加入模特：删去模板的模特一行和\"held by her or\"，构图空写产品的位置；仍写真实地点与时刻、取自场景并按画幅放置的留白、一个统一的色彩或材质世界，不加任何标志或可读文字。",
+      "expected_first_result": "PRODUCT_ONLY_TEMPLATE_NO_FORCED_MODEL",
+      "files": []
+    },
+    {
+      "id": 14,
+      "prompt": "为一款蜜桃色奶油质地腮红膏策划并直接生成 3 张独立的商业图片：用于电商详情页首图和小红书广告，目标消费者为 25–35 岁女性，品牌定位轻熟、自然。不要向我提问。",
+      "expected_output": "不提问，直接按 3 张各自的用处确定内容后生成 3 张独立图片（不拼图，每张一张图）；\"轻熟、自然\"填进模板的氛围词；每张按模板只填空写提示词（真实地点与时刻、具体且美的模特、构图与留白），3 张地点、构图彼此不同，妆效柔和可见，不另加姿势、光线规则；详情页首图与小红书按投放位选比例。",
+      "expected_first_result": "THREE_SEPARATE_SHORT_TEMPLATE_PROMPTS",
+      "files": []
+    },
+    {
+      "id": 15,
+      "prompt": "按我的要求拍：模特把口红竖着举在脸颊旁，正对镜头，做一张商品展示图。",
+      "expected_output": "用户明确要求的姿势属于需求明确要求的情况，按要求用一个短语写进提示词，不拒绝、不改成别的姿势；出图后仍检查手部与产品比例。",
+      "expected_first_result": "BRIEF_REQUESTED_POSE_ALLOWED",
+      "files": []
+    },
+    {
+      "id": 16,
+      "prompt": "为一款腮红膏生成一张带模特的广告主视觉，出图后按质检清单给出结论。（假设生成结果构图和光线出色，但模特一只看得见的手从背后腋下伸出）",
+      "expected_output": "出图提示词不抄质检清单条目；出图后从肩膀顺手臂追到指尖，判定该手解剖错误，结论为 not usable；不因画面好看判 commercial-grade 或 close；不重抽、不局部修补，如实报告。",
+      "expected_first_result": "COMMERCIAL_VERDICT_NOT_USABLE_ON_VISIBLE_ANATOMY_FAILURE",
+      "files": []
+    },
+    {
+      "id": 17,
+      "prompt": "帮我写 5 条口红的小红书种草文案，不需要图片。",
+      "expected_output": "纯文案任务，不涉及摄影策划或出图，不触发本 Skill。",
+      "expected_first_result": "NOT_TRIGGERED",
+      "should_trigger": false,
+      "files": []
+    },
+    {
+      "id": 18,
+      "prompt": "把我这张自拍磨皮美白，改成一张证件照。（附一张本人照片）",
+      "expected_output": "修改真人照片，不属于本 Skill；本 Skill 只用虚构合成成年模特，不处理真人照片，不触发。",
+      "expected_first_result": "NOT_TRIGGERED",
+      "should_trigger": false,
+      "files": []
+    },
+    {
+      "id": 19,
+      "prompt": "给一款蓝牙耳机策划一张电商主图并直接生成。",
+      "expected_output": "非美妆品类出图，不触发本 Skill。",
+      "expected_first_result": "NOT_TRIGGERED",
+      "should_trigger": false,
+      "files": []
+    },
+    {
+      "id": 20,
+      "prompt": "油皮夏天适合用哪种粉底液？推荐几款。",
+      "expected_output": "美妆知识问答或选购建议，不涉及摄影策划或出图，不触发。",
+      "expected_first_result": "NOT_TRIGGERED",
+      "should_trigger": false,
+      "files": []
+    },
+    {
+      "id": 21,
+      "prompt": "把这张口红产品图上的 logo 修清楚，去掉背景做成白底图。（附一张真实产品照片）",
+      "expected_output": "只要求编辑真实 SKU 产品图（修 logo、去背景），description 已写明不做，不触发。",
+      "expected_first_result": "NOT_TRIGGERED",
+      "should_trigger": false,
+      "files": []
+    }
+  ]
+}
