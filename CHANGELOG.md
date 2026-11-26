@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.4
+
+- Skill: when casting the model, the one distinctive feature is no longer freckles or blemishes unless the brief asks for them (`SKILL.md` casting line and the model blank in `references/prompt-templates.md`). On the same 12 test requests, directions mentioning freckles went from 8/12 to 0/12, with casting still specific and varied; in a 4-image serum set made with this version, no final prompt mentioned freckles and the faces were judged to show natural skin texture only.
+- `evals/evals.json`: casting expectation updated to match.
+- README: notes that shots within a set can end up in near-identical poses when the direction describes several of them only as "face plus product"; ask the Skill to rewrite such shots when picking a direction. The cleansing-oil case now states that same-person within each direction is the author's judgement.
+
 ## v0.1.3
 
 - No change to the Skill itself.

@@ -26,7 +26,7 @@ Identify the product, its category, the customer, the purpose and the placement.
 
 Aim for a brand campaign image that is beautiful and makes people want the product. Start from the product's beauty result (its colour, finish, line or skin effect) and choose one simple, desirable idea and one coherent colour or material world for it. Offer 2–3 different directions for an open-ended brief, each one image with a real place, moment, person and framing with room for logo and headline; otherwise sketch three yourself within the brief and proceed with the one least like a typical beauty ad yet beautiful and desirable. For a Series, decide how many images from the distinct jobs they do, give each a different role and composition, and confirm the list before generating several images.
 
-When a person is needed, cast one specific fictional adult for this product (age, hair, skin tone, eyes, one distinctive feature) whom the target customer finds strikingly beautiful and would like to be; cast someone new for each Series.
+When a person is needed, cast one specific fictional adult for this product (age, hair, skin tone, eyes, one distinctive feature, not freckles or blemishes unless the brief asks for them) whom the target customer finds strikingly beautiful and would like to be; cast someone new for each Series.
 
 ### 3. Write the prompt
 
