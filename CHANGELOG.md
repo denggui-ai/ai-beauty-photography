@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.6
+
+- No change to the Skill itself.
+- `examples/fragrance-light-full-set.md`: the same fragrance request and product photo as the seaside case, taking the Skill's third direction instead → the Skill's 7-shot plan (5 with the model, 2 product-only still lifes) → the first model was judged plain by the user, so the Skill was asked to rewrite only the casting and the first image was made again → 7 images, each with its final prompt. One image per shot (the first shot twice, the rejected one not published), unselected and unretouched; the project owner judged this set only fair, a step below the seaside set.
+- README: the new case.
+
 ## v0.1.5
 
 - No change to the Skill itself.
