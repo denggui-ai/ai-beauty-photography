@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.5
+
+- No change to the Skill itself.
+- `examples/fragrance-seaside-full-set.md`: one request with the user's product photo asking for a full set with the image count left to the Skill → 3 directions and a 7-image plan (5 with the model, 2 product-only still lifes) → the user picks a direction and asks that the model shots not all hold the bottle by the face → the Skill's shot-by-shot plan → 7 images, each with its final prompt. The first image is the identity reference for the other model shots; the still lifes attach only the product photo. One image per shot, unselected and unretouched; all 7 judged usable by the project owner.
+- README: the new case; evidence for shots without a model (product still lifes usable; one texture close-up only fair, the liquid read as water or gel).
+
 ## v0.1.4
 
 - Skill: when casting the model, the one distinctive feature is no longer freckles or blemishes unless the brief asks for them (`SKILL.md` casting line and the model blank in `references/prompt-templates.md`). On the same 12 test requests, directions mentioning freckles went from 8/12 to 0/12, with casting still specific and varied; in a 4-image serum set made with this version, no final prompt mentioned freckles and the faces were judged to show natural skin texture only.
