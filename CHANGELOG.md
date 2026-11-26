@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.3
+
+- No change to the Skill itself.
+- `examples/cleansing-oil-three-directions.md`: one request with the user's product photo → the Skill's 3 directions (each already planned as a 4-image set: elevator poster 3:4, ecommerce hero 1:1, two feed images 4:5) → all 3 directions generated, 12 images, each with its final prompt. Within a direction the first image is the identity reference for the other three. One image per shot, unselected and unretouched; one first-shot run was rerun after a network failure produced no image.
+
 ## v0.1.2
 
 - No change to the Skill itself.
