@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.7
+
+- No change to the Skill itself.
+- README: new section on using the Skill for ecommerce detail pages — what it delivers (a planned set of photos, about 8, at most 12) and what it does not (selling-point text, ingredient or claim graphics, spec tables, page layout, white-background hero shots); what must be checked against the real product (swatch and on-face colour, label and exact size, real effects such as emulsifying); aspect-ratio advice and the ratios tested. Evidence: one text-only detail-page plan each for a lipstick and a cleansing oil (no text in images, no invented claims), and the cleansing oil's three usage-step shots made once each, all three judged usable.
+
 ## v0.1.6
 
 - No change to the Skill itself.
