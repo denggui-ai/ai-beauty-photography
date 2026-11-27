@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.1.8
+
+- Skill: when a person or hand will appear with the product and its size is unknown, the Skill now asks for the real size and the template carries a likely size (one text-only A/B run: the new version asked for the bottle height, the old one did not; estimating an unknown size is untested) (`SKILL.md` step 1; `references/prompt-templates.md` product blank). Total length unchanged (1691 words).
+- README: new section on planning a full product-launch set (main images, detail page, banners, in-app ads, Xiaohongshu and Douyin covers, splash): give a campaign direction first, tell the Skill the product size when a model appears, and two known limits (still lifes next to windows or doorways may still be drawn too large; still-life compositions in one set tend to look alike). Evidence added to the evidence section.
+- Examples: the seaside fragrance case now links to the "Light collection" case built from its third direction.
+- evals: case 22 (model holding a serum, size not given).
+
 ## v0.1.7
 
 - No change to the Skill itself.

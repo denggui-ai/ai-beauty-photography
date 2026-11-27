@@ -20,7 +20,7 @@ This Skill helps Codex direct beauty advertising images with the image-generatio
 
 ### 1. Understand the product and the task
 
-Identify the product, its category, the customer, the purpose and the placement. Ask only for missing information that would change the result. Keep three groups apart: **visible product facts** (only what the image or brief shows), **user/brand-provided claims**, and **unknowns / creative hypotheses** (never present these as facts). Choose the deliverable: model-led photography, product-only still life, texture or swatch, or a mixed set. Not every image needs a model.
+Identify the product, category, customer, purpose and placement. Ask only for missing facts that change the result (e.g. size beside people). Keep three groups apart: **visible product facts** (only what the image or brief shows), **user/brand-provided claims**, and **unknowns / creative hypotheses** (never present these as facts). Choose the deliverable: model-led photography, product-only still life, texture or swatch, or a mixed set. Not every image needs a model.
 
 ### 2. Choose the direction
 
